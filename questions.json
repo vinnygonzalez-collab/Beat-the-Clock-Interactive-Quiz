@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Where is India located on the map?",
+    "options": ["China", "Korea", "South Asia"],
+    "correct": 2
+  },
+  {
+    "question": "What does CSS do for your website?",
+    "options": [
+      "Make the website more interactive",
+      "Helps with online forms",
+      "It controls the visual appearance, styling, and layout of a website."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is 5000 / 5?",
+    "options": ["1000", "100", "50", "5000"],
+    "correct": 0
+  },
+  {
+    "question": "What is a variable in JavaScript?",
+    "options": [
+      "A number for solving Mathematical Problems",
+      "A number for only division equations",
+      "A named container used to store, reference, and manipulate data values in computer memory."
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is the definition of UTF-16 in JavaScript?",
+    "options": [
+      "Uniform Transition File 16-Bit",
+      "16-Bit Unicode Transformation Format",
+      "United Transform File 16"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "What two people invented Google?",
+    "options": [
+      "Bill Gates and Larry Page",
+      "Steve Jobs and Bill Gates",
+      "Larry Page and Sergey Brin"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Which empire was the largest contiguous land empire in history?",
+    "options": [
+      "The Mongol Empire",
+      "The Byzantine Empire",
+      "The Roman Empire",
+      "The German Empire"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "What does CSS stand for?",
+    "options": [
+      "Collapsing Style Sheets",
+      "Cascading Style Sheets",
+      "Cool Styling Sacs",
+      "Calling Super Sheets"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Who is the lead guitarist for the heavy metal band Led Zeppelin?",
+    "options": ["Tom Morello", "Jimi Hendrix", "Tony Iommi", "Jimmy Page"],
+    "correct": 3
+  },
+  {
+    "question": "Who invented the Python Programming Language?",
+    "options": ["Ada Lovelace", "Steve Wozniak", "Guido van Rossum"],
+    "correct": 2
+  },
+  {
+    "question": "What city was Abraham Lincoln born in?",
+    "options": ["New York City", "Hodgenville, Kentucky", "Little Rock, Arkansas"],
+    "correct": 1
+  },
+  {
+    "question": "What is the definition of an Array in coding?",
+    "options": [
+      "A ray of different combined functions",
+      "A bunch of fuctions all combined into one whole file",
+      "An array is a data structure used to store a collection of items under a single variable name"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "What is 152 x 50?",
+    "options": ["4000", "7500", "7600", "8000"],
+    "correct": 2
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Queensland", "Sydney", "Melbourne", "Canberra"],
+    "correct": 3
+  },
+  {
+    "question": "Solve this Order of Operations Equation 48/8x3-2?",
+    "options": ["15", "16", "20", "18"],
+    "correct": 1
+  }
+]

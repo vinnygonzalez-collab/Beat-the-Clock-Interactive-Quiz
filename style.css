@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0,1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #555;
+}
+
+#timer {
+    color: #e74c3c;
+}
+
+.results-gif {
+    width: 100%;
+    max-width: 260px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #3498db;
+    color: white;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Option Button Specifies */
+.option-btn {
+    background-color: #ecf0f1;
+    color: #333;
+    text-align: left;
+}
+.option-btn:hover {
+    background-color: #d5dbdb;
+}
+
+/* Answer State Feedbacks */
+.correct {
+    background-color: #2ecc71;
+    color: white;
+}
+
+.wrond {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.hide {
+    display: none;
+}

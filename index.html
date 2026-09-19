@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕙 Beat the Clock Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="x-icon" href="img/30.jpg">
+</head>
+<body>
+    <img src="img/beattheclocklogo.webp" alt="Beat the Clock! Logo" width="800" height="400">
+
+    <div class="quiz-container">
+        <!--Start Screen -->
+        <div id="start-screen" class="screen">
+            <h1>🕙 Beat the Clock!</h1>
+            <p>Answer the questions before time runs out. You have 30 seconds for each question!</p>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+        
+     <!-- End Screen -->
+      <div id="quiz-screen" class="screen hide">
+        <div class="quiz-header">
+            <div id="timer">Time Left: <span id="time-count">30</span>s</div>
+            <div id="progress">Question 1 or 10</div>
+        </div>
+        <h2 id="question-text">Question Placeholder</h2>
+        <div id="answer-options" class="options-container">
+            <!-- Buttons will be dynamically inserted here via JS -->
+        </div>
+        <button id="next-btn" class="hide">Next Question ➡️</button>
+      </div>
+
+      <!-- End Screen -->
+       <div id="end-screen" class="screen hide">
+            <h2>🎉 Quiz Finished!</h2>
+            <p id="final-score">Your final score is: 0 / 0</p>
+            <button id="restart-btn">Try Again?</button>
+       </div>
+      </div>
+
+    <script src="script.js"></script>   
+</body>
+</html>
