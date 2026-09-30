@@ -1,4 +1,4 @@
-#My Awesome Project
+#MyAwesomeProject
 #interactivegame 
 
 This is a timed quiz game I created the questions are a variety of topics.
